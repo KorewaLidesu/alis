@@ -17,22 +17,22 @@ If you find useful the ~~original~~ script, you can support picodotdev with a [s
 
 ### Features
 
-* **System**: UEFI, BIOS
-* **Storage**: SATA, NVMe and MMC
+* **System**: BIOS
+* **Storage**: SATA
 * **Encryption**: root partition encrypted and no encrypted
-* **Partition**: no LVM, LVM, LVM on LUKS, GPT on UEFI, MBR on BIOS
-* **File system**: ext4, btrfs (with subvols), xfs, f2fs, reiserfs
-* **Kernels**: linux, linux-lts, linux-hardened, linux-zen
-* **Desktop environment**: GNOME, KDE, XFCE, Mate, Cinnamon, LXDE, i3-wm, i3-gaps
-* **Display managers**: GDM, SDDM, Lightdm, lxdm
-* **Graphics controller**: intel, nvidia and amd with optionally early KMS start. With intel optionally fastboot, hardware video acceleration and framebuffer compression.
-* **Bootloader**: GRUB, rEFInd, systemd-boot
-* **Custom shell**: bash, zsh, dash, fish
-* **WPA WIFI network** installation
-* **Periodic TRIM** for SSD storage
+* **Partition**: MBR on BIOS
+* **File system**: ext4
+* **Kernels**: linux
+* **Desktop environment**: none
+* **Display managers**: none
+* **Graphics controller**: amd. With intel optionally fastboot, hardware video acceleration and framebuffer compression.
+* **Bootloader**: GRUB
+* **Custom shell**: bash
+* **WPA WIFI network** installation: NO!!!
+* **Periodic TRIM** for SSD storage: NO!!!
 * Intel and AMD **processors microcode**
 * Optional **swap file**
-* **VirtualBox guest additions**
+* **VirtualBox guest additions** : NO!!!
 * **Kernel compression** and **custom parameters**
 * **Users creation** and **add to sudoers**
 * **systemd units enable or disable**
@@ -47,7 +47,7 @@ If you find useful the ~~original~~ script, you can support picodotdev with a [s
 * **Packer support** for testing in VirtualBox
 * **Installation log** with all commands executed and output in a file and/or **asciinema video**
 * Wait after installation for an **abortable reboot**
-* Fork the repository and **use your own configuration**
+* Fork the repository and **use your own configuration**: Yes.
 
 ### System installation
 
