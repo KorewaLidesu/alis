@@ -91,7 +91,7 @@ Boot from the latest <a href="https://www.archlinux.org/download/">original Arch
 #                                  # Start the system with latest Arch Linux installation media
 # loadkeys [keymap]                # Load keyboard keymap, eg. loadkeys es, loadkeys us, loadkeys de
 # curl -sL https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash     # Download alis scripts
-# # curl -sL https://bit.ly/2F3CATp | bash                                                 # Alternative download URL with URL shortener
+# # curl -sL http://tiny.cc/alisLi | bash                                                  # Alternative download URL with URL shortener
 # ./alis-recovery-asciinema.sh     # (Optional) Start asciinema video recording
 # vim alis-recovery.conf           # Edit configuration and change variables values with your last installation configuration with alis (mainly device and partition scheme)
 # ./alis-recovery.sh               # Start recovery
