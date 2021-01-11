@@ -34,8 +34,8 @@ set -e
 # [3] https://wiki.archlinux.org/index.php/General_recommendations
 
 # Usage:
-# # loadkeys es
-# # curl https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash, curl https://raw.githubusercontent.com/picodotdev/alis/master/download.sh | bash -s -- -u [github user], or with URL shortener curl -sL https://bit.ly/2F3CATp | bash
+# # loadkeys en
+# # curl https://raw.githubusercontent.com/KorewaLidesu/alis/master/download.sh | bash, curl https://raw.githubusercontent.com/KorewaLidesu/alis/master/download.sh | bash -s -- -u [github user], or with URL shortener curl -sL https://bit.ly/2F3CATp | bash
 # # vim alis.conf
 # # ./alis.sh
 
