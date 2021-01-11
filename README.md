@@ -1,5 +1,5 @@
 # alis (by picodotdev)
-~~A fork for my installation.~~
+~~A fork for my installation. Please use the original instead.~~
 
 Arch Linux Install Script (or alis) installs unattended, automated and customized Arch Linux system.
 
